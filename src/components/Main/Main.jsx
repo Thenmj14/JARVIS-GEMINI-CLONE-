@@ -47,9 +47,9 @@ const Main = () => {
               <p>How can I help you today?</p>
             </div>
             <div className="cards">
-              <div className="card">
-                <p>Suggest beautiful places to see on an upcoming road trip</p>
-                <img src={assets.compass_icon} alt="" />
+              <div className="card" onClick={() => speakText("Suggest beautiful places to see on an upcoming road trip")}>
+               <p>Suggest beautiful places to see on an upcoming road trip</p>
+               <img src={assets.compass_icon} alt="" />
               </div>
               <div className="card">
                 <p>Briefly summarize this concept: urban planning</p>
